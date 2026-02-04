@@ -1,0 +1,7 @@
+[versions]
+mysql = "8.0.33"
+lombok = "1.18.30"
+
+[libraries]
+mysql-connector = { module = "com.mysql:mysql-connector-j", version.ref = "mysql" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
